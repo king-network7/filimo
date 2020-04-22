@@ -35,12 +35,11 @@ php download.php
 
 ![filimo_code](https://user-images.githubusercontent.com/246721/34075283-1733209c-e2d7-11e7-88b6-e4a7b87b34a2.png)
 
-![filimo_run](https://user-images.githubusercontent.com/246721/34075293-34be415a-e2d7-11e7-8baf-ffa55d97877a.png)
 
 # گزارشگیری دانلود
 دستور `php -S localhost:8000` را وارد کنید. سپس در مرورگر خود، آدرس `http://localhost:8000/stats.php` را باز کنید. بدین صورت می‌توانید گزارش و مشخصات همه‌ی فیلم‌های دانلود شده و میزان درصد دانلود آنها را مشاهده کنید.
 
-![filimo_stats](https://user-images.githubusercontent.com/246721/34075299-599c7ffa-e2d7-11e7-854a-620c1f03f1ce.png)
+
 
 # توقف دانلود
 اگر از ویندوز استفاده می‌کنید توسط دستور `tasklist | find "ffmpeg"` شماره پروسه را پیدا کنید و توسط `taskkill /f /pid <PID>` آن را متوقف کنید. اگر از لینوکس استفاده می‌کنید، توسط دستور `ps a | grep ffmpeg` شماره پروسه را پیدا و توسط `kill -9 <PID>` آن را متوقف کنید.
